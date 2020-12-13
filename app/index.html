@@ -1,59 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style> a{text-decoration:none;}</style>
-<style> a{color:black;} </style>
-     <link rel="icon" href="meta2.ico" />
+@@include('./html_header.html', {
+  "title": "Les nouvelles métaphysiques"
+})
 
-    <meta charset="utf-8"/>
-        <link rel="stylesheet" href="reboot.css"/>
-    <link rel="stylesheet" href="style.css" />
-
-
-    <title>Les nouvelles métaphysiques</title>
-
-</head>
 <body>
-
-
-  <div class="logo"><a href="index.html"><img src="logo_bleu.png" alt="logo lnm"/></a>
-  </div>
-
-  <div class="menu" >
-       <a class="darkhover" href="laurabrunisholz.html">Laura Brunisholz</a><br/>
-       <a class="darkhover" href="ava.html">Ava</a><br/>
-       <a class="darkhover" href="sarahdessardo.html">Sarah Dessardo</a><br/>
-       <a class="darkhover" href="giannimolinari.html">Gianni Molinari</a><br/>
-       <a class="darkhover" href="123456789.html">123456789</a><br/>
-       <a class="darkhover" href="kilianmercadie.html">Kilian Mercadie</a><br/>
-       <a class="darkhover" href="roxanesauvage.html">Roxane Sauvage</a><br/>
-       <a class="darkhover" href="hugobauschbelbachir.html">Hugo Bausch Belbachir</a><br/>
-  </div>
-
-
-
-
-
-    <div class="footer">
-        <a class="darkhover" href="apropos.html">À&nbsp;propos</a><br/>
-        <a class="darkhover" href="contributeurs.html">Contributeurs</a><br/>
-        <a class="darkhover" href="index_en.html">English</a><br/><br/>
-        <a href="https://instagram.com/lesnouvellesmetaphysiques" target="_blank"><img src="meta_bleu2.png" alt="logo meta"/></a>
-    </div>
-
-
-
-
-    <p class="shithappens">
-
-
-        <a href="https://shithappens.fr" target="_blank"><img src="logo_sh_vertical.png" alt="logo shit happens"/></a>
-
-</p>
-
-
-
-
-
+  @@include('./sidebar.html')
+  @@include('./footer.html')
 </body>
+
 </html>

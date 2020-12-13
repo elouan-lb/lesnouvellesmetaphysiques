@@ -1,58 +1,46 @@
 body {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    margin-left: 45px;
-    margin-right: 45px;
-    background-color: #F7F8FF;
-    padding: 0px;
-    
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 45px;
+  margin-right: 45px;
+  background-color: #F7F8FF;
+  padding: 0px;
 }
-
-
 
 .logo {
-    position: fixed;
-    width: 205px;
+  position: fixed;
+  width: 205px;
 }
 
-.logo img{
-    width: 100%;
+.logo img {
+  width: 100%;
 }
 
-
-
-
-.menu{
-    position: fixed;
-    margin-top: 6.5%;
-    line-height: 150%;
+.menu {
+  position: fixed;
+  margin-top: 6.5%;
+  line-height: 150%;
 }
 
-
-.language{
-
-    text-align: right;
-    margin-top: 0%;
-    line-height: 150%;
+.language {
+  text-align: right;
+  margin-top: 0%;
+  line-height: 150%;
 }
 
-
-
-
-.darkhover {
-      text-decoration: none;
-          color: #6B6A9A;
+.darkhover, .darkhover a {
+  text-decoration: none;
+  color: #6B6A9A;
 }
 
-
-.darkhover:hover {
+.darkhover a:hover, .darkhover :hover {
   text-decoration: none;
   color: #3F3E61;
 }
 
 .lighthover {
-      text-decoration: none;
-          color: #3F3E61;
+  text-decoration: none;
+  color: #3F3E61;
 }
 
 .lighthover:hover {
@@ -60,53 +48,40 @@ body {
   color: #6B6A9A;
 }
 
-
 .footer {
-    position: fixed;
-    bottom: 3%;
-        width: 2%;
-        line-height: 130%;
+  position: fixed;
+  bottom: 3%;
+  width: 2%;
+  line-height: 130%;
 }
 
-.footer img{
-    width: 100%;
+.footer img {
+  width: 100%;
 }
 
-
-.shithappens{
-    position: fixed;
-    right:60px;
-    bottom: 35px;
-    width: 20px;
-
-    
+.shithappens {
+  position: fixed;
+  right: 60px;
+  bottom: 35px;
+  width: 20px;
 }
 
-
-.shithappens img{
-    width: 100%;
-
+.shithappens img {
+  width: 100%;
 }
 
-
-
-
-
-.content{
-      text-align: center;
- padding-top: 50px;
+.content {
+  text-align: center;
+  padding-top: 50px;
   padding-right: 30px;
   padding-left: 240px;
-    }
-    
-.content img{
-    width : 93%; 
 }
 
+.content img {
+  width: 93%;
+}
 
-
-
-.title{
+.title {
   font-family: "zapfino";
   font-size: 30px;
   text-align: left;
@@ -116,132 +91,106 @@ body {
   padding-top: 160px;
   padding-bottom: 0px;
   line-height: 180%;
-    }
+}
 
-.subtitle{
-     color: #3F3E61; 
-      padding-left: 280px;
-      padding-top: 0px;
-    } 
+.subtitle {
+  color: #3F3E61;
+  padding-left: 280px;
+  padding-top: 0px;
+}
 
-.article{
-text-align: left;
+.article {
+  text-align: left;
   color: #6B6A9A;
   padding-right: 200px;
   padding-left: 280px;
   padding-top: 0px;
   padding-bottom: 00px;
-    }
+}
 
-.apropos{
-text-align: left;
+.apropos {
+  text-align: left;
   color: #6B6A9A;
   padding-right: 300px;
   padding-left: 280px;
   padding-top: 230px;
   padding-bottom: 00px;
-    }
+}
 
-.apropos2{
-padding-top: 60px;
-font-size: 13px;
-    }
-
-
-
-
+.apropos2 {
+  padding-top: 60px;
+  font-size: 13px;
+}
 
 .info {
-text-align: left;
-    font-size: 15px;
+  text-align: left;
+  font-size: 15px;
   padding-right: 200px;
   padding-left: 283px;
   padding-top: 100px;
   padding-bottom: 20px;
-      color: #FF5733;
-
+  color: #FF5733;
 }
 
 .infohover {
-
-      text-decoration: none;
-          color: #FF5733;
+  text-decoration: none;
+  color: #FF5733;
 }
 
 .infohover:hover {
-
   text-decoration: none;
   color: #D85033;
 }
 
-.infomenu{
-
-      text-decoration: none;
-          color: #FF5733;
+.infomenu {
+  text-decoration: none;
+  color: #FF5733;
 }
 
-
-
-
-.contributeurs{
-text-align: right;
+.contributeurs {
+  text-align: right;
   color: #6B6A9A;
   padding-right: 200px;
   padding-left: 360px;
   padding-top: 180px;
   padding-bottom: 100px;
-    }
-
-
-.contrib_contact {
-        font-size: 15px;
-      text-decoration: none;
-          color: #FF5733;
 }
 
+.contrib_contact {
+  font-size: 15px;
+  text-decoration: none;
+  color: #FF5733;
+}
 
 .contrib_contact:hover {
-        font-size: 15px;
+  font-size: 15px;
   text-decoration: none;
   color: #D85033;
 }
 
-
-
-.credits{
-text-align: center;
+.credits {
+  text-align: center;
   color: #6B6A9A;
   padding-right: 0px;
   padding-left: 0px;
-
-    }
-
-
-
-
-
-
-
-
-.construction{
-      text-align: center;
- padding-top: 140px;
-  padding-right: 30px;
-  padding-left: 100px;
-    }
-    
-.construction img{
-    width : 40%; 
 }
 
-.constructiontexte{
-text-align: left;
+.construction {
+  text-align: center;
+  padding-top: 140px;
+  padding-right: 30px;
+  padding-left: 100px;
+}
+
+.construction img {
+  width: 40%;
+}
+
+.constructiontexte {
+  text-align: left;
   color: #6B6A9A;
   padding-right: 0px;
   padding-left: 595px;
   padding-top: 10px;
   padding-bottom: 00px;
-    }
-
-
-
+}
