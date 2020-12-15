@@ -1,11 +1,3 @@
-body {
-  margin-top: 40px;
-  margin-bottom: 50px;
-  margin-left: 45px;
-  margin-right: 45px;
-  background-color: #f7f8ff;
-  padding: 0px;
-}
 
 .logo {
   position: fixed;
@@ -13,13 +5,8 @@ body {
 }
 
 .logo img {
+  display: grid;
   width: 100%;
-}
-
-.menu {
-  position: fixed;
-  margin-top: 6.5%;
-  line-height: 150%;
 }
 
 .language {
@@ -52,13 +39,12 @@ body {
 
 .footer {
   position: fixed;
-  bottom: 3%;
-  width: 2%;
-  line-height: 130%;
+  bottom: 20px;
+  line-height: 24px;
 }
 
 .footer img {
-  width: 100%;
+  width: 26px;
 }
 
 .shithappens {
@@ -74,9 +60,9 @@ body {
 
 .content {
   text-align: center;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-left: 240px;
+  padding-top: 50px; /* Keep */
+  /* padding-right: 30px; */
+  /* padding-left: 240px; */
 }
 
 .content img {
@@ -85,31 +71,20 @@ body {
 
 .subtitle {
   color: #3f3e61;
-  padding-left: 280px;
+  /* padding-left: 280px; */
   padding-top: 0px;
 }
 
 .article {
   text-align: left;
   color: #6b6a9a;
-  padding-right: 200px;
-  padding-left: 280px;
-  padding-top: 0px;
-  padding-bottom: 00px;
 }
 
 .apropos {
   text-align: left;
   color: #6b6a9a;
-  padding-right: 300px;
-  padding-left: 280px;
-  padding-top: 230px;
-  padding-bottom: 00px;
-}
-
-.apropos2 {
-  padding-top: 60px;
-  font-size: 13px;
+  margin-top: 230px;
+  padding-left: 40px;
 }
 
 .infohover {
@@ -131,25 +106,20 @@ body {
   text-align: center;
   color: #6b6a9a;
   padding-right: 0px;
-  padding-left: 0px;
 }
 
 .construction {
-  text-align: center;
-  padding-top: 140px;
-  padding-right: 30px;
-  padding-left: 100px;
+  grid-column: 2;
+  margin-top: 120px;
+  margin-left: 80px;
 }
 
 .construction img {
   width: 40%;
+
 }
 
 .constructiontexte {
-  text-align: left;
   color: #6b6a9a;
-  padding-right: 0px;
-  padding-left: 595px;
-  padding-top: 10px;
-  padding-bottom: 00px;
+  margin-left: 80px;
 }
