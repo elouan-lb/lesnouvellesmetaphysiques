@@ -41,8 +41,8 @@
   }
 
   .shithappens {
-    padding-right: 88px;
-    padding-top: 88px;
+    top: 48px;
+    right: 12px;
     position: relative;
     transform: rotate(-90deg);
     grid-column: 3;
