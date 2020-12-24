@@ -1,8 +1,13 @@
 /* GRID & MAIN ELEMENTS */
+html {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
 body {
-  margin: 45px;
   background-color: #f7f8ff;
-  padding: 0px;
   display: grid;
   grid-template-columns: 240px auto;
   row-gap: 4px;
@@ -12,6 +17,7 @@ body {
   grid-column: 1;
   position: fixed;
   width: 205px;
+  top: 8%;
 }
 
 .logo img {
@@ -21,7 +27,7 @@ body {
 .menu {
   grid-column: 1;
   position: fixed;
-  top: 120px;
+  top: 20%;
   line-height: 24px;
 }
 
@@ -126,7 +132,6 @@ main {
 
 .content-main {
   text-align: center;
-  padding-top: 50px;
 }
 
 .content-main img {
@@ -135,6 +140,7 @@ main {
 
 .content-small {
   text-align: left;
+  margin-top: 80px;
 }
 
 .content-small img {

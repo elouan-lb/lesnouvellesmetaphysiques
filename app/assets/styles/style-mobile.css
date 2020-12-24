@@ -1,61 +1,96 @@
 @media only screen and (max-height: 500px), screen and (max-width: 800px) {
+  html {
+    padding: 0;
+  }
+
   body {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 0.1fr;
+    grid-template-rows: 70px auto auto 140px;
+    min-height: 94vh;
+    min-width: 92vw;
+    padding-top: 6vw;
+    padding-bottom: 0;
+    margin: 0;
+  }
+
+  .logo, .menu, .title, .subtitle, .article, .content-small, .info, .footer, .shithappens, .apropos, .contributeurs {
+    /* Padding left & right for everything except main content */
+    padding-left: 4vh;
+    padding-right: 4vh;
   }
 
   .logo {
     position: relative;
+    top: 0;
     grid-column: 1;
     grid-row: 1;
   }
 
   .menu {
     position: relative;
+    top: 0;
     grid-column: 1;
     grid-row: 2;
-    top: 16px;
-    margin-bottom: 40px;
   }
 
   main {
-    grid-column: 1 / 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
     grid-row: 3;
     padding: 0;
+    margin-top: 40px;
   }
 
   .article {
-    padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+  }
+
+  .content-small {
+    margin: 0px;
+  }
+
+  .title {
+    left: 0px;
+  }
+
+  .subtitle {
+    margin-bottom: 20px;
   }
 
   .info {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
   }
 
   .footer {
+    position: relative;
     grid-column: 1;
     grid-row: 4;
-    position: relative;
-    bottom: 0px;
+    bottom: 0;
+  }
+
+  .construction {
+    margin: 10%;
+  }
+
+  .construction img {
+    width: 100%;
   }
 
   .shithappens {
-    top: 48px;
-    right: 12px;
     position: relative;
-    transform: rotate(-90deg);
     grid-column: 3;
     grid-row: 4;
+    right: 0;
+    bottom: 0;
+    padding-right: 20px;
   }
 
   .apropos {
-    margin-top: 0;
-    padding: 0;
+    margin-top: 40px;
   }
 
   .contributeurs {
-    padding-right: 0;
     margin: 0;
   }
 }
