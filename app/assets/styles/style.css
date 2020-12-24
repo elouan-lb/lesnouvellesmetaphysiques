@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'zapfino';
+  src: url('/assets/fonts/ZapfinoExtraLTPro.eot');
+  src: url('/assets/fonts/ZapfinoExtraLTPro.otf') format('truetype'),
+    url('/assets/fonts/ZapfinoExtraLTPro.woff') format('woff'),
+    url('quadranta.eot?#iefix') format('embedded-opentype');
+  font-style: normal;
+}
+
 /* GRID & MAIN ELEMENTS */
 html {
   padding-top: 8%;
@@ -27,7 +36,7 @@ body {
 .menu {
   grid-column: 1;
   position: fixed;
-  top: 20%;
+  top: 22%;
   line-height: 24px;
 }
 
@@ -103,13 +112,13 @@ main {
 .title {
   font-family: "zapfino";
   font-weight: normal;
-  font-size: 30px;
+  font-size: 80px;
   text-align: left;
   color: #ff5733;
   margin-bottom: 0;
   padding-top: clamp(40px, 12%, 160px);
   padding-bottom: 0px;
-  line-height: 180%;
+  line-height: 60%;
   position: relative;
   left: -28px;
 }

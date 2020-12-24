@@ -31,6 +31,7 @@
     top: 0;
     grid-column: 1;
     grid-row: 2;
+    margin-top: 20px;
   }
 
   main {
@@ -50,7 +51,10 @@
   }
 
   .title {
+    padding-top: 20px;
+    padding-bottom: 20px;
     left: 0px;
+    font-size: 60px;
   }
 
   .subtitle {
@@ -58,8 +62,7 @@
   }
 
   .info {
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .footer {
@@ -88,6 +91,8 @@
 
   .apropos {
     margin-top: 40px;
+    margin-bottom: 40px;
+
   }
 
   .contributeurs {
