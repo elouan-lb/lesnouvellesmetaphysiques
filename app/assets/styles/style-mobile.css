@@ -13,7 +13,17 @@
     margin: 0;
   }
 
-  .logo, .menu, .title, .subtitle, .article, .content-small, .info, .footer, .shithappens, .apropos, .contributeurs {
+  .logo,
+  .menu,
+  .title,
+  .subtitle,
+  .article,
+  .content-small,
+  .info,
+  .footer,
+  .shithappens,
+  .apropos,
+  .contributeurs {
     /* Padding left & right for everything except main content */
     padding-left: 4vh;
     padding-right: 4vh;
@@ -34,6 +44,11 @@
     margin-top: 20px;
   }
 
+  /* Hide menu for mobile articles */
+  .body-article .menu {
+    display: none;
+  }
+
   main {
     grid-column-start: 1;
     grid-column-end: 4;
@@ -48,6 +63,23 @@
 
   .content-small {
     margin: 0px;
+  }
+
+  .content-main-video {
+    text-align: center;
+  }
+
+  .content-main-video iframe {
+    min-width: 350px;
+    min-height: 200px;
+  }
+
+  .content-main-bandcamp {
+    text-align: center;
+  }
+
+  .content-main-bandcamp iframe {
+    min-width: 100%;
   }
 
   .title {
@@ -92,7 +124,6 @@
   .apropos {
     margin-top: 40px;
     margin-bottom: 40px;
-
   }
 
   .contributeurs {

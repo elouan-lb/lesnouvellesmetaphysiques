@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'zapfino';
-  src: url('/assets/fonts/ZapfinoExtraLTPro.eot');
-  src: url('/assets/fonts/ZapfinoExtraLTPro.otf') format('truetype'),
-    url('/assets/fonts/ZapfinoExtraLTPro.woff') format('woff'),
-    url('quadranta.eot?#iefix') format('embedded-opentype');
+  font-family: "zapfino";
+  src: url("/assets/fonts/ZapfinoExtraLTPro.eot");
+  src: url("/assets/fonts/ZapfinoExtraLTPro.otf") format("truetype"),
+    url("/assets/fonts/ZapfinoExtraLTPro.woff") format("woff"),
+    url("quadranta.eot?#iefix") format("embedded-opentype");
   font-style: normal;
 }
 
@@ -26,7 +26,7 @@ body {
   grid-column: 1;
   position: fixed;
   width: 205px;
-  top: 8%;
+  top: 8vh;
 }
 
 .logo img {
@@ -36,7 +36,7 @@ body {
 .menu {
   grid-column: 1;
   position: fixed;
-  top: 22%;
+  top: 22vh;
   line-height: 24px;
 }
 
@@ -147,6 +147,15 @@ main {
   width: 100%;
 }
 
+.content-main-video iframe {
+  min-width: 560px;
+  min-height: 315px;
+}
+
+.content-main-bandcamp iframe {
+  min-width: 560px;
+  min-height: 680px;
+}
 .content-small {
   text-align: left;
   margin-top: 80px;
@@ -169,7 +178,7 @@ main {
 .apropos {
   text-align: left;
   color: #6b6a9a;
-  margin-top: 230px;
+  margin-top: 12%;
   padding-left: 40px;
 }
 
