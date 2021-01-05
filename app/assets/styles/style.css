@@ -147,10 +147,12 @@ main {
 .content-main img {
   width: 100%;
 }
-
+.content-main-video {
+  height: 40vw;
+}
 .content-main-video iframe {
-  min-width: 720px;
-  min-height: 480px;
+  width: 100%;
+  height: 100%;
 }
 
 .content-main-bandcamp iframe {
